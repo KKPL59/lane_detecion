@@ -1,7 +1,7 @@
 # lane_detecion
 pytorch model that uses unet and lstm to predict traffic lanes masks
 
-implementation of: Robust Lane Detection from Continuous Driving Scenes Using Deep Neural Networks
+
 
 the model basicly takes the short video of road(5 frames) uses unest to resize(decode) every frame and than it passes the frames to 
 lstm model that is able to extract features from sequence data. Than the output of lstm is encodet and the predicted mask are returned.
