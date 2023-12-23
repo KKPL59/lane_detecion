@@ -9,7 +9,7 @@ lstm model that is able to extract features from sequence data. Than the output 
 Trained on gpu using:
 amd ryzen 5600 X, 
 64 GB ram 
-1x nvidia geforce gtx titan x
+1x nvidia geforce gtx titan X
 1x nvidia geforce gtx 1660 ti
 
 using adam optimizer(1e-4 learning rate, weight_decay=1r-5) with 8 batch size
